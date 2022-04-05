@@ -10,9 +10,10 @@ export const validate = Yup.object({
         // console.log(value.size)
         return !value || value.size <= 200000}
     ).test("fileType", "image type should be jpg or png only ", (value) => {
+      console.log(value)
       return (
         !value ||
-        (value !== null && ["image/jpg", "image/png"].includes(value.type))
+        (value !== null && ["image/jpg", "image/png","image/jpeg"].includes(value.type))
       );
     }),
   name: Yup.string()
