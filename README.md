@@ -14,10 +14,20 @@
 
 ### Steps to host react app on S3
 1. First create bucket
+![Screenshot from 2022-04-14 17-28-15](https://user-images.githubusercontent.com/68768212/163386435-0286e73f-6b5c-40f3-815d-1252e8e01a3f.png)
+
 2. Unblock all Public Access
+
+![Screenshot from 2022-04-14 17-31-28](https://user-images.githubusercontent.com/68768212/163386684-93eae73c-acdc-4866-af80-dc92ff5674eb.png)
+
 3. And Enable Static website hosting
+
+![Screenshot from 2022-04-14 17-32-49](https://user-images.githubusercontent.com/68768212/163386827-3318aa92-136a-48be-ba5c-ee4393b51736.png)
+
+
 4. Add Action in Git repo.
 5. And add Secrets for the action
+
 
 ##### Prerequisite
 - node (v16.13.1)
