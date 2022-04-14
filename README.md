@@ -9,9 +9,15 @@
 ![Screenshot from 2022-04-05 15-52-50](https://user-images.githubusercontent.com/68768212/161904279-4d1acc8f-a581-47bb-8f40-86c46dd0f343.png)
 
 
+### What is AWS?
+- Amazon Simple Storage Service (AWS S3) is highly available, scalable, secure, durable cloud storage where we can store millions of data with very minimal rates.
 
-
-
+### Steps to host react app on S3
+1. First create bucket
+2. Unblock all Public Access
+3. And Enable Static website hosting
+4. Add Action in Git repo.
+5. And add Secrets for the action
 
 ##### Prerequisite
 - node (v16.13.1)
@@ -36,3 +42,6 @@ $npm install
 $npm start
 ```
 4. open [http://localhost:3000/](http://localhost:3000/) to see the app in action...
+
+
+# Run Project Locally
