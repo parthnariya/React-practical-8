@@ -53,6 +53,7 @@ jobs:
 ```
 
 5. And add AWS credentials as Secrets of the action
+
 ![Screenshot from 2022-04-14 17-37-50](https://user-images.githubusercontent.com/68768212/163387888-3459811f-e65f-4be8-a3da-0b1074abccd0.png)
 
 ### Run Project Locally
