@@ -2,7 +2,7 @@ name: signup-demo-prac9
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
